@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "name": "Comics ",
+    "title": "Heroic Legends: The Rise of [Avengers]",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-psd/comic-poster-template-theme_23-2148645250.jpg?t=st=1713459984~exp=1713463584~hmac=5edc4726d0c056115479b37d4581b4ad48dc633b468549de98031dc54ddf8a3f&w=740"
+  },
+
+  {
+    "id": 2,
+    "name": "Comedy Book ",
+    "title": "Laugh Lines and Lattes",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-psd/world-book-day-poster-template_23-2150208753.jpg?t=st=1713460414~exp=1713464014~hmac=97d929558a1f72905adad38e49f0193f42c9a2cf5adb4040e50ac2933dcf6de1&w=740"
+  },
+
+  {
+    "id": 3,
+    "name": "Story Book ",
+    "title": "Whispers of the Woods",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1713461997~exp=1713465597~hmac=f12947217fda8bd9e1b1a48965c3f4ba796128c0d1152f09fd58e9eb57794765&w=740"
+  },
+
+  {
+    "id": 4,
+    "name": "Horror Book ",
+    "title": "Shadows in the Dark",
+    "price": 20,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/horror-time-font-with-magic-book-table_1308-74656.jpg?t=st=1713461774~exp=1713465374~hmac=9705152c51fbcb904f740da63ee34ddcf81d2efcf5f1455dc8170b7fae2eaf84&w=740"
+  },
+
+  {
+    "id": 5,
+    "name": "Science Fiction ",
+    "title": "Neon Nebula",
+    "price": 50,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1713461942~exp=1713465542~hmac=cbec8d0bfb8a06f944f81816ec27c7b42c94b33d94f08d8ada9320c4442dfa72&w=740"
+  },
+
+  {
+    "id": 6,
+    "name": "Historical fiction ",
+    "title": "Tides of Change",
+    "price": 20,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/book-hardcover-book-day-icon_24640-133878.jpg?t=st=1713462344~exp=1713465944~hmac=908ad7ff4e7d03cc4775238417711c13a0742e647797f87983a1e85ff3dfd830&w=360"
+  },
+
+  {
+    "id": 7,
+    "name": "Mystery Book ",
+    "title": "Murder at Midnight",
+    "price": 30,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/lovely-reading-composition-with-book_23-2148002619.jpg?t=st=1713128900~exp=1713132500~hmac=e2d4ebe0a0e18c1ed34444bac5bda1a68ae50a154963efb227b72c594cb0d51e&w=740"
+  },
+
+  {
+    "id": 8,
+    "name": "Literary Fiction ",
+    "title": "Infinite Reverie",
+    "price": 40,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-world-book-day-illustration-with-stack-books_23-2148868267.jpg?t=st=1713463615~exp=1713467215~hmac=0668e24b560ce3bff43be164e082ac2732c5af98d4d975be4af95b28bc0fb52f&w=740"
+  },
+  {
+    "id": 9,
+    "name": "Adventure fiction ",
+    "title": "Quest for the Lost City",
+    "price": 10,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/fisherman-sitting-book-with-spinning-rod-catching-ideas-hand-drawn-sketch-vector-illustration_460848-15509.jpg?t=st=1713463491~exp=1713467091~hmac=245f8fc2bed994fdf26ec9ecf75a8596b7244726587619ad731435b0dca8021d&w=740"
+  },
+  {
+    "id": 10,
+    "name": "History Book ",
+    "title": "Unearthing the Past",
+    "price": 20,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/back-school-set-icons_24640-46562.jpg?t=st=1713462068~exp=1713465668~hmac=4ff50da68b12a3dea07469e789b75f02fefd43de92f22867b067a8edbcda3e2e&w=740"
+  }
+]
