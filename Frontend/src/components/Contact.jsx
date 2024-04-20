@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 import { useForm } from "react-hook-form";
+import axios from "axios";
+import toast from "react-hot-toast";
 function Contact() {
     const {
         register,
@@ -9,7 +11,30 @@ function Contact() {
         formState: { errors },
       } = useForm();
     
-      const onSubmit = (data) => console.log(data);
+      const onSubmit = async (data) => {
+        const userInfo = {
+          fullname: data.fullname,
+          email: data.email,
+          message: data.message,
+        };
+        await axios
+          .post("http://localhost:4001/user/contact", userInfo)
+          .then((res) => {
+            console.log(res.data);
+            if (res.data) {
+              toast.success("Submit Successfully");
+              document.getElementById("my_modal_3").close();
+              
+            }
+          })
+          .catch((err) => {
+            if (err.response) {
+              console.log(err);
+              toast.error("Error: " + err.response.data.message);
+              setTimeout(() => {}, 2000);
+            }
+          });
+      };
   return (
 
     <>
@@ -66,7 +91,10 @@ function Contact() {
                 <span>Message</span>
                 <br />
             
-                  <textarea  className="w-80 px-3 py-1 border rounded-md outline-none" cols="35" rows="10" placeholder="Leave a comment here" ></textarea>
+                  <textarea  className="w-80 px-3 py-1 border rounded-md outline-none" 
+                  cols="35" rows="10" 
+                  placeholder="Leave a comment here" 
+                  {...register("message", { required: true })}></textarea>
                   
                 
                  

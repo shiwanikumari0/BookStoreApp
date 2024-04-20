@@ -1,6 +1,9 @@
 import User from "../model/user.model.js";
 import bcryptjs from "bcryptjs";
+import {mailSender} from "../utils/mailSender.js";
+import dotenv from "dotenv";
 
+dotenv.config();
 export const signup = async(req, res) => {
     try {
         const { fullname, email, password } = req.body;
@@ -49,5 +52,49 @@ export const login = async(req, res) => {
     } catch (error) {
         console.log("Error: " + error.message);
         res.status(500).json({ message: "Internal server error" });
+    }
+};
+
+export const contact = async(req, res) => {
+    try{
+        const {fullname,email,message}=req.body;
+  
+           try{
+            const mailToContactTeam=await mailSender(
+                process.env.TEAM_USER,
+                "Message By User",
+                `Message by ${fullname}-${message}`
+                );
+           
+           }catch(err){
+              console.log(err);
+           }
+    
+        const emailRes = await mailSender(
+            email,
+            "Your Data send successfully",
+            `You have requested for query-${message}`
+          )
+          console.log("Email Res ", emailRes);
+
+
+          return res.json({
+            success: true,
+            message: "Email send successfully",
+          })
+
+           
+
+ 
+    }catch(err){
+       
+     console.error(err);
+ 
+     return res.status(500).json({
+         success:false,
+         message:'user not created try again',
+     })
+    
+    
     }
 };

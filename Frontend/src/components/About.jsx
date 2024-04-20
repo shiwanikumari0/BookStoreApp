@@ -2,8 +2,8 @@ import React from "react";
 
 function About() {
   return (
-    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
-        <h3 className="font-bold text-black text-2xl mt-10 items-center justify-center text-center ">About</h3>
+    <div className="max-w-screen-2xl container mx-auto mt-10 md:px-20 px-4">
+        <h3 className="font-bold text-lime-600 text-2xl mt-20 items-center justify-center text-center ">About</h3>
       <p className="mr-20 ml-20 mt-5">
         A bookstore is a haven for those who cherish the written word. Walking
         into a bookstore is like entering a treasure trove of stories waiting to
