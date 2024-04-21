@@ -112,7 +112,7 @@ function Navbar() {
                 </div>
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer font-abc">
+            <a href="/"className=" text-2xl font-bold cursor-pointer font-abc">
               BookStore
             </a>
           </div>
