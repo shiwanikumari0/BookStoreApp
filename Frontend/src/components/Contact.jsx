@@ -18,7 +18,7 @@ function Contact() {
           message: data.message,
         };
         await axios
-          .post("http://localhost:4001/user/contact", userInfo)
+          .post("https://mernback-19bq.onrender.com/contact", userInfo)
           .then((res) => {
             console.log(res.data);
             if (res.data) {
