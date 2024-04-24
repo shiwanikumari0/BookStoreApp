@@ -52,7 +52,7 @@ function Login() {
 
             <h3 className="font-bold text-lg">Login</h3>
             {/* Email */}
-            <div className="mt-4 space-y-2">
+            <div className="mt-4 space-y-2 text-black">
               <span>Email</span>
               <br />
               <input
@@ -69,7 +69,7 @@ function Login() {
               )}
             </div>
             {/* password */}
-            <div className="mt-4 space-y-2">
+            <div className="mt-4 space-y-2 text-black">
               <span>Password</span>
               <br />
               <input
