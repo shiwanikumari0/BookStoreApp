@@ -5,6 +5,25 @@ import cors from "cors";
 
 import bookRoute from "./route/book.route.js"
 import userRoute from "./route/user.route.js";
+import Courses from "../Frontend/src/courses/Courses.jsx";
+const router = createBrowserRouter([
+  {
+   path: "/",
+   element: Home(),
+  },
+  {
+   path:'/course',
+   element: Courses(),
+  },
+   {
+   path:'/about',
+   element: About(),
+  },
+  {
+   path:'/contact',
+   element: Contact(),
+  }
+ ]);
 
 const app = express();
 
